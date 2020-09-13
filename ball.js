@@ -18,7 +18,7 @@ class ball {
         translate(this.body.position.x, this.body.position.y);
         rotate(angle);
         imageMode(CENTER);
-        ellipseMode(CENTER);
+        ellipseMode(RADIUS);
         ellipse(0, 0, this.radius);
         pop();
     }
